@@ -1,0 +1,1 @@
+- add wp config and check for mysql for correct database!!
