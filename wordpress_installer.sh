@@ -1,3 +1,5 @@
+
+
 echo "First i will check for all requiremats"
 #sh req_check.sh
 
@@ -23,9 +25,9 @@ wp_needs() {
     read email
     sleep 1
 
-    echo -e "username:"$username" \nworld" > testfile.txt
+    echo  -e "username : "$username"\npassword : "$password"" > inputs.txt
 
-
+    echo "If you ever forget your username and password open inputs.txt"
 }
 wp_needs
 #wp core download
